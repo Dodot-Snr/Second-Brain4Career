@@ -140,20 +140,13 @@
 		5. Establishing Code Review Tools
 		6. Encouraging a Culture of Code Review
 6. GIT TOOLS AND INTEGRATIONS
-
-6.1.           Collaborations and Teamwork
-
-6.1.1.     Effective Communication a Git Environment
-
-6.1.2.     Resolving Conflicts Collaboratively
-
-6.1.3.     Using GitHub Discussions for Team Communication
-
-6.1.4.     Establishing Clear Roles and Responsibilities
-
-6.1.5.     Onboarding New Team Members to Git and GitHub
-
-6.1.6.     Promoting a Positive and Inclusive Collaboration Environment
+	1. Collaborations and Teamwork
+		1. Effective Communication a Git Environment
+		2. Resolving Conflicts Collaboratively
+		3. Using GitHub Discussions for Team Communication
+		4. Establishing Clear Roles and Responsibilities
+		5. Onboarding New Team Members to Git and GitHub
+		6. Promoting a Positive and Inclusive Collaboration Environment
 
 6.2.           Git GUIs
 
