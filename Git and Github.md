@@ -78,26 +78,16 @@
 		2. The ‘.git’ Directory Structure
 		3. Git’s Index (Staging Area)
 		4. Git’s Object Database
-
-3.4.5.     Understanding Git’s Hashing Algrithm (SHA-1)
-
-3.4.6.     Garbage Collection: ‘git go’
-
-4.        ADVANCE GITHUB FEATURES
-
-4.1.           Submodules and Subtrees
-
-4.1.1.     Adding Submodules: ‘git Submodules add’
-
-4.1.2.     Initializing Submodules: ‘git submodules init’
-
-4.1.3.     Updating Submodules: ‘git submodules update’
-
-4.1.4.     Working with Submodules Changes
-
-4.1.5.     Using Subtrees as an Alternative to submodules
-
-4.1.6.     Best Practice for Using Submodules and Subtrees
+		5. Understanding Git’s Hashing Algrithm (SHA-1)
+		6. Garbage Collection: ‘git go’
+4. ADVANCE GITHUB FEATURES
+	1. Submodules and Subtrees
+		1. Adding Submodules: ‘git Submodules add’
+		2. Initializing Submodules: ‘git submodules init’
+		3. Updating Submodules: ‘git submodules update’
+		4. Working with Submodules Changes
+		5. Using Subtrees as an Alternative to submodules
+		6. Best Practice for Using Submodules and Subtrees
 
 4.2.           GitHub Actions
 
