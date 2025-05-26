@@ -32,32 +32,20 @@
 		6. Renaming and Removing Remote
 	2. Introduction to GitHub
 		1. Understanding GitHub’s Role
+		2. Creating GitHub Account
+		3. Exploring the GitHub Interface
+		4. Understanding Repositories, Issues, Pull Requests, Action
+		5. GitHub Flavored Markdown (GFM)
+		6. GitHub Pages
+	3. Repository Management
+		1. Creating a New Repository on GitHub
+		2. Cloning a Repository from GitHub: ‘git clone’
+		3. Adding an Existing Project to GitHub
+		4. Repository Setting Visibility: Branch Protection Collaborators
+		5. Managing Repository Collaborators and Permissions
+		6. Using GitHub Projects for Task Management
 
-2.2.2.     Creating GitHub Account
-
-2.2.3.     Exploring the GitHub Interface
-
-2.2.4.     Understanding Repositories, Issues, Pull Requests, Action
-
-2.2.5.     GitHub Flavored Markdown (GFM)
-
-2.2.6.     GitHub Pages
-
-2.3.           Repository Management
-
-2.3.1.     Creating a New Repository on GitHub
-
-2.3.2.     Cloning a Repository from GitHub: ‘git clone’
-
-2.3.3.     Adding an Existing Project to GitHub
-
-2.3.4.     Repository Setting Visibility: Branch Protection Collaborators
-
-2.3.5.     Managing Repository Collaborators and Permissions
-
-2.3.6.     Using GitHub Projects for Task Management
-
-2.4.           Collaboration with Pull Requests
+2.Collaboration with Pull Requests
 
 2.4.1.     Creating a Pull Request
 
