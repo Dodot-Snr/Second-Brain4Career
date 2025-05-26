@@ -99,32 +99,19 @@
 		1. Creating a GitHub Pages Site
 		2. Using Jekyll with GitHub Pages
 		3. Customizing Your GitHub Pages Site
-
-4.3.4.     Using Custom Domains with GitHub Pages
-
-4.3.5.     Understanding GitHub Pages Deployment
-
-4.3.6.     Troubleshooting GitHub Pages Issues
-
-4.4.           GitHub API
-
-4.4.1.     Introduction to the GitHub API
-
-4.4.2.     Authentication with the GitHub API
-
-4.4.3.     Making API Requests: REST and GraphQL
-
-4.4.4.     Using the GitHub API to Automate Tasks
-
-4.4.5.     Building GitHub Apps
-
-4.4.6.     Rate Limiting and Best Practices
-
-5.        GIT WORKFLOWS AND BEST PRACTICES
-
-5.1.           GitHub Security
-
-5.1.1.     Understanding GitHub Security Feature
+		4. Using Custom Domains with GitHub Pages
+		5. Understanding GitHub Pages Deployment
+		6. Troubleshooting GitHub Pages Issues
+	4. GitHub API
+		1. Introduction to the GitHub API
+		2. Authentication with the GitHub API
+		3. Making API Requests: REST and GraphQL
+		4. Using the GitHub API to Automate Tasks
+		5. Building GitHub Apps
+		6. Rate Limiting and Best Practices
+5. GIT WORKFLOWS AND BEST PRACTICES
+	1. GitHub Security
+		1. Understanding GitHub Security Feature
 
 5.1.2.     Two-Factor Authentication (2FA)
 
