@@ -8,20 +8,13 @@
 		5. Installing Git on Different Operating System
 		6. Configuring Git User Information, Editor, Aliases
 	2. Basic Git Commands
-
-1.2.1.     Initializing a Repositories: ‘git init’
-
-1.2.2.     Staging Changes: ‘git add’
-
-1.2.3.     Committing Changes: ‘git commit’
-
-1.2.4.     Viewing Commit History: ‘git log’
-
-1.2.5.     Checking File Status: ‘git status’
-
-1.2.6.     Ignoring Files: ‘gitgnore’
-
-1.2.7.     Undoing Changes: ‘git checkout’, ‘git revert’, ‘git reset’
+		1. Initializing a Repositories: ‘git init’
+		2. Staging Changes: ‘git add'
+		3. Committing Changes: ‘git commit’
+		4. Viewing Commit History: ‘git log’
+		5. Checking File Status: ‘git status’
+		6. Ignoring Files: ‘gitgnore’
+		7. Undoing Changes: ‘git checkout’, ‘git revert’, ‘git reset’
 
 1.3.           Branching and Merging
 
