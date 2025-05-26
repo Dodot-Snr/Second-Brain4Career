@@ -1,5 +1,6 @@
 ##### GIT AND GITHUB MASTERY 
 
+<>
 .markdown-preview-section ol>li::marker {
   content: counter(list-item) "\A0"
 }
@@ -15,7 +16,7 @@
 .markdown-preview-section ol>li ol>li ol>li > ol>li::marker {
   content: counters(list-item, ".") "\A0"
 }
-
+</style>
 
 1. GIT FUNDAMENTALS
 	1. Introduction to Version Control
