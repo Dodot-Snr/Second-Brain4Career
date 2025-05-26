@@ -63,36 +63,21 @@
 		1. Understanding Rebasing
 		2. Interactive Rebasing: ‘git rebase -i’
 		3. Rebasing vs Merging
-
-3.2.4.     When to Rebase and When to Merge
-
-3.2.5.     Recovering from a Bad Rebase
-
-3.2.6.     Best Practice for Rebasing
-
-3.3.           Stashing
-
-3.3.1.     Stashing Changes: ‘git stash’
-
-3.3.2.     Listing Stashes: ‘git stash list’
-
-3.3.3.     Applying Staches: ‘git stash apply’
-
-3.3.4.     Popping Stashes: ‘git stash pop’
-
-3.3.5.     Creating a Branch from a Stash: ‘git stash branch’
-
-3.3.6.     Clearing Stashes: ‘git stash clear’
-
-3.4.           Git Internals
-
-3.4.1.     Understanding Git’s Data Model: Objects, Trees, Commits
-
-3.4.2.     The ‘.git’ Directory Structure
-
-3.4.3.     Git’s Index (Staging Area)
-
-3.4.4.     Git’s Object Database
+		4. When to Rebase and When to Merge
+		5. Recovering from a Bad Rebase
+		6. Best Practice for Rebasing
+	3. Stashing
+		1. Stashing Changes: ‘git stash’
+		2. Listing Stashes: ‘git stash list’
+		3. Applying Staches: ‘git stash apply’
+		4. Popping Stashes: ‘git stash pop’
+		5. Creating a Branch from a Stash: ‘git stash branch’
+		6. Clearing Stashes: ‘git stash clear’
+	4. Git Internals
+		1. Understanding Git’s Data Model: Objects, Trees, Commits
+		2. The ‘.git’ Directory Structure
+		3. Git’s Index (Staging Area)
+		4. Git’s Object Database
 
 3.4.5.     Understanding Git’s Hashing Algrithm (SHA-1)
 
