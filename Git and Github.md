@@ -54,24 +54,15 @@
 3. ADVANCE GIT CONCEPT
 	1. GitHub Issues and Project Management
 		1. Creating and Managing Issues
-
-3.1.2.     Using Labels and Milestones
-
-3.1.3.     Assigning Issues to Collaborators
-
-3.1.4.     Linking Issues to Pull Request
-
-3.1.5.     Using GitHub Project Boards (Kanban)
-
-3.1.6.     Automating Issues Management with GitHub Actions
-
-3.2.           Rebasing
-
-3.2.1.     Understanding Rebasing
-
-3.2.2.     Interactive Rebasing: ‘git rebase -i’
-
-3.2.3.     Rebasing vs Merging
+		2. Using Labels and Milestones
+		3. Assigning Issues to Collaborators
+		4. Linking Issues to Pull Request
+		5. Using GitHub Project Boards (Kanban)
+		6. Automating Issues Management with GitHub Actions
+	2. Rebasing
+		1. Understanding Rebasing
+		2. Interactive Rebasing: ‘git rebase -i’
+		3. Rebasing vs Merging
 
 3.2.4.     When to Rebase and When to Merge
 
