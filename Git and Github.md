@@ -5,12 +5,9 @@
 		2. Centralized vs Distributed VSC
 		3. Benefits of Using Git
 		4. Git’s Core Concepts: Repositories, Commits, Branches
-
-1.1.5.     Installing Git on Different Operating Systems
-
-1.1.6.     Configuring Git User Information, Editor, Aliases
-
-1.2.           Basic Git Commands
+		5. Installing Git on Different Operating System
+		6. Configuring Git User Information, Editor, Aliases
+	2. Basic Git Commands
 
 1.2.1.     Initializing a Repositories: ‘git init’
 
