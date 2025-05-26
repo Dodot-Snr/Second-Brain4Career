@@ -88,28 +88,17 @@
 		4. Working with Submodules Changes
 		5. Using Subtrees as an Alternative to submodules
 		6. Best Practice for Using Submodules and Subtrees
-
-4.2.           GitHub Actions
-
-4.2.1.     Introduction to GitHub Actions
-
-4.2.2.     Creating Workflows: YAML Syntax
-
-4.2.3.     Understanding Triggers, Jobs and Steps
-
-4.2.4.     Using Pre-built Actions from the GitHub Marketplace
-
-4.2.5.     Creating Custom Actions
-
-4.2.6.     Automating CI/CD Pipelines
-
-4.3.           GitHub Pages
-
-4.3.1.     Creating a GitHub Pages Site
-
-4.3.2.     Using Jekyll with GitHub Pages
-
-4.3.3.     Customizing Your GitHub Pages Site
+	2. GitHub Actions
+		1. Introduction to GitHub Actions
+		2. Creating Workflows: YAML Syntax
+		3. Understanding Triggers, Jobs and Steps
+		4. Using Pre-built Actions from the GitHub Marketplace
+		5. Creating Custom Actions
+		6. Automating CI/CD Pipelines
+	3. GitHub Pages
+		1. Creating a GitHub Pages Site
+		2. Using Jekyll with GitHub Pages
+		3. Customizing Your GitHub Pages Site
 
 4.3.4.     Using Custom Domains with GitHub Pages
 
