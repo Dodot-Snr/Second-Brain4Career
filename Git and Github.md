@@ -44,21 +44,13 @@
 		4. Repository Setting Visibility: Branch Protection Collaborators
 		5. Managing Repository Collaborators and Permissions
 		6. Using GitHub Projects for Task Management
-
-2.Collaboration with Pull Requests
-
-2.4.1.     Creating a Pull Request
-
-2.4.2.     Reviewing a Pull Request
-
-2.4.3.     Commenting on Code and Discussions
-
-2.4.4.     Merging a Pull Request
-
-2.4.5.     Resolving Conflicts in Pull Requests
-
-2.4.6.     Understanding Code Review Best Practices
-
+	4. Collaboration with Pull Requests
+		1. Creating a Pull Request
+		2. Reviewing a Pull Request
+		3. Commenting on Code and Discussions
+		4. Merging a Pull Request
+		5. Resolving Conflicts in Pull Requests
+		6. Understanding Code Review Best Practices
 3.        ADVANCE GIT CONCEPTS
 
 3.1.           GitHub Issues and Project Management
