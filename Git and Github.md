@@ -15,8 +15,7 @@
 		5. Checking File Status: ‘git status’
 		6. Ignoring Files: ‘gitgnore’
 		7. Undoing Changes: ‘git checkout’, ‘git revert’, ‘git reset’
-
-1.3.           Branching and Merging
+	3. Branching and Merging
 
 1.3.1.     Creating Branches: ‘git branch’
 
