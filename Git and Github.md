@@ -23,24 +23,15 @@
 		5. Deleting Branches: ‘git branch -d’, ‘git branch -D’
 		6. Branching Strategies: Gitflow, Github Flow
 2. GITHUB ESSENTIALS
-
-2.1.           Working with remote
-
-2.1.1.     Adding Remote Repositories: ‘git remote add’
-
-2.1.2.     Fetching Changes: ‘git fetch’
-
-2.1.3.     Pulling Changes: ‘git pull’
-
-2.1.4.     Pushing Changes: ‘git push’
-
-2.1.5.     Tracking Remote Branches
-
-2.1.5.1.          Renaming and Removing Remote
-
-2.2.           Introduction to GitHub
-
-2.2.1.     Understanding GitHub’s Role
+	1. Working with remote
+		1. Adding Remote Repositories: ‘git remote add’
+		2. Fetching Changes: ‘git fetch’
+		3. Pulling Changes: ‘git pull’
+		4. Pushing Changes: ‘git push’
+		5. Tracking Remote Branches
+		6. Renaming and Removing Remote
+	2. Introduction to GitHub
+		1. Understanding GitHub’s Role
 
 2.2.2.     Creating GitHub Account
 
