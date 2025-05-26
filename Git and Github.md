@@ -16,20 +16,13 @@
 		6. Ignoring Files: ‘gitgnore’
 		7. Undoing Changes: ‘git checkout’, ‘git revert’, ‘git reset’
 	3. Branching and Merging
-
-1.3.1.     Creating Branches: ‘git branch’
-
-1.3.2.     Switching Branches: ‘git checkout’
-
-1.3.3.     Merging Branches: ‘git merge’
-
-1.3.4.     Resolving Merge conflicts
-
-1.3.5.     Deleting Branches: ‘git branch -d’, ‘git branch -D’
-
-1.3.6.     Branching Strategies: Gitflow, Github Flow
-
-2.        GITHUB ESSENTIALS
+		1. Creating Branches: ‘git branch’
+		2. Switching Branches: ‘git checkout’
+		3. Merging Branches: ‘git merge’
+		4. Resolving Merge conflicts
+		5. Deleting Branches: ‘git branch -d’, ‘git branch -D’
+		6. Branching Strategies: Gitflow, Github Flow
+2. GITHUB ESSENTIALS
 
 2.1.           Working with remote
 
