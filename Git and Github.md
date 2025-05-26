@@ -112,34 +112,20 @@
 5. GIT WORKFLOWS AND BEST PRACTICES
 	1. GitHub Security
 		1. Understanding GitHub Security Feature
-
-5.1.2.     Two-Factor Authentication (2FA)
-
-5.1.3.     SSH Key Management
-
-5.1.4.     Repository Security Settings
-
-5.1.5.     Dependency Scanning
-
-5.1.6.     Secret Scanning
-
-5.1.7.     Code Scanning
-
-5.2.           GitFlow Workflow
-
-5.2.1.     Understanding the GitFlow Workflow
-
-5.2.2.     Feature Branches, Release Branches, Hotfix Branches
-
-5.2.3.     Using Gitflow Tools and Extensions
-
-5.2.4.     Advantages and Disadvantages of GitFlow
-
-5.2.5.     Adopting GitFlow to Your Project
-
-5.2.6.     Implementing GitFlow in a Team Environment
-
-5.3.           GitHub Flow Workflow
+		2. Two-Factor Authentication (2FA)
+		3. SSH Key Management
+		4. Repository Security Settings
+		5. Dependency Scanning
+		6. Secret Scanning
+		7. Code Scanning
+	2. GitFlow Workflow
+		1. Understanding the GitFlow Workflow
+		2. Feature Branches, Release Branches, Hotfix Branches
+		3. Using Gitflow Tools and Extensions
+		4. Advantages and Disadvantages of GitFlow
+		5. Adopting GitFlow to Your Project
+		6. Implementing GitFlow in a Team Environment
+	3. GitHub Flow Workflow
 
 5.3.1.     Understanding the GitHub Flow Workflow
 
