@@ -1,13 +1,10 @@
-### GIT AND GITHUB MASTERY 
-
-1.     GIT FUNDAMENTALS
-Introduction to Version Control
-
-1.1.1.     Understanding Version Control Systems (VCS)
-
-1.1.2.     Centralized vs Distributed VSC
-1.1.3.     Benefits of Using Git
-1.1.4.     Git’s Core Concepts: Repositories, Commits, Branches
+##### GIT AND GITHUB MASTERY 
+1. GIT FUNDAMENTALS
+	1. Introduction to Version Control
+		1. Understanding Version Control Systems (VCS)
+		2. Centralized vs Distributed VSC
+		3. Benefits of Using Git
+		4. Git’s Core Concepts: Repositories, Commits, Branches
 
 1.1.5.     Installing Git on Different Operating Systems
 
