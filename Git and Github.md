@@ -51,8 +51,8 @@
 		4. Merging a Pull Request
 		5. Resolving Conflicts in Pull Requests
 		6. Understanding Code Review Best Practices
-3.        ADVANCE GIT CONCEPTS
-GitHub Issues and Project Management
+3. ADVANCE GIT CONCEPT
+	1. GitHub Issues and Project Management
 
 3.1.1.     Creating and Managing Issues
 
