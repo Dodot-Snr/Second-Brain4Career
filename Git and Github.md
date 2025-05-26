@@ -126,34 +126,20 @@
 		5. Adopting GitFlow to Your Project
 		6. Implementing GitFlow in a Team Environment
 	3. GitHub Flow Workflow
-
-5.3.1.     Understanding the GitHub Flow Workflow
-
-5.3.2.     Branching from Main, Creating Pull Requests
-
-5.3.3.     Continuous Integration and Continuous Deployment (CI/CD)
-
-5.3.4.     Advantages and Disadvantages of GitHub Flow
-
-5.3.5.     Adopting GitHub Flow to Your Project
-
-5.3.6.     Implementing GitHub Flow in a Team Environment
-
-5.4.           Code Review Best Practices
-
-5.4.1.     Writing Clear and Concise Commit Messages
-
-5.4.2.     Breaking Down Large Changes into Smaller Commits
-
-5.4.3.     Providing Constructive Feedback in Code Reviews
-
-5.4.4.     Using Automated Code Review Tools
-
-5.4.5.     Establishing Code Review Tools
-
-5.4.6.     Encouraging a Culture of Code Review
-
-6.        GIT TOOLS AND INTEGRATIONS
+		1. Understanding the GitHub Flow Workflow
+		2. Branching from Main, Creating Pull Requests
+		3. Continuous Integration and Continuous Deployment (CI/CD)
+		4. Advantages and Disadvantages of GitHub Flow
+		5. Adopting GitHub Flow to Your Project
+		6. Implementing GitHub Flow in a Team Environment
+	4. Code Review Best Practices
+		1. Writing Clear and Concise Commit Messages
+		2. Breaking Down Large Changes into Smaller Commits
+		3. Providing Constructive Feedback in Code Reviews
+		4. Using Automated Code Review Tools
+		5. Establishing Code Review Tools
+		6. Encouraging a Culture of Code Review
+6. GIT TOOLS AND INTEGRATIONS
 
 6.1.           Collaborations and Teamwork
 
