@@ -53,8 +53,7 @@
 		6. Understanding Code Review Best Practices
 3. ADVANCE GIT CONCEPT
 	1. GitHub Issues and Project Management
-
-3.1.1.     Creating and Managing Issues
+		1. Creating and Managing Issues
 
 3.1.2.     Using Labels and Milestones
 
