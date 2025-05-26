@@ -1,2 +1,3 @@
 # Second-Brain4Career
-just for fun
+
+[[Git and Github]]
