@@ -215,32 +215,19 @@
 		6. Best Practice for Git in Web Development
 	3. Git for Data Science
 		1. Versioning Data Science Projects with Git
-
-8.3.2.     Managing Data Files with Git LFS
-
-8.3.3.     Collaborating on Data Science Projects
-
-8.3.4.     Using Git for Reproducible Research
-
-8.3.5.     Integration Git with Data Science Tools
-
-8.3.6.     Best Practices for Git in Data Science
-
-8.4.           Git for Mobile Development
-
-8.4.1.     Managing Mobile App Projects with Git
-
-8.4.2.     Versioning Mobile App Assets\
-
-8.4.3.     Collaborating on Mobile Development Projects
-
-8.4.4.     Using Git for Continuous Integration and Delivery
-
-8.4.5.     Managing Code Signing Certification with Git
-
-8.4.6.     Best Practices for Git in Mobile Development
-
-9.        GIT AND GITHUB FOR TEAMS
+		2. Managing Data Files with Git LFS
+		3. Collaborating on Data Science Projects
+		4. Using Git for Reproducible Research
+		5. Integration Git with Data Science Tools
+		6. Best Practices for Git in Data Science
+	4. Git for Mobile Development
+		1. Managing Mobile App Projects with Git
+		2. Versioning Mobile App Assets
+		3. Collaborating on Mobile Development Projects
+		4. Using Git for Continuous Integration and Delivery
+		5. Managing Code Signing Certification with Git
+		6. Best Practices for Git in Mobile Development
+9. GIT AND GITHUB FOR TEAMS
 
 9.1.           Git for Documentation
 
