@@ -295,7 +295,7 @@
 
 
 ##### ADVANCED GIT AND GITHUB MASTERY
-
+  
 1.        GIT FUNDAMENTELS
 
 1.1.           Core Concepts
