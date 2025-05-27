@@ -270,34 +270,21 @@
 		3. Understanding the Benefits of Git Certification
 		4. Choosing the Right Git Certification for Your Career Goals
 		5. Maintaining Your Git Certification
-		Resource for Git Certification
-		Building a Git Portfolio
-
-10.3.1.Contributing to Open Source Projects
-
-10.3.2.Creating Personal Git Projects
-
-10.3.3.Showcasing Your Git Skills on Your Resume
-
-10.3.4.Highlighting Your Git Contributions on LinkedIn
-
-10.3.5.Building a GitHub Profile
-
-10.3.6.Networking with Other Git Professionals
-
-10.4.       Career Paths with Git Skills
-
-10.4.1.Software Development
-
-10.4.2.DevOps Engineer
-
-10.4.3.System Administrator
-
-10.4.4.Data Scientist
-
-10.4.5.Technical Writer
-
-10.4.6.Project Manager
+		6. Resource for Git Certification
+	3. Building a Git Portfolio
+		1. Contributing to Open Source Projects
+		2. Creating Personal Git Projects
+		3. Showcasing Your Git Skills on Your Resume
+		4. Highlighting Your Git Contributions on LinkedIn
+		5. Building a GitHub Profile
+		6. Networking with Other Git Professionals
+	4. Career Paths with Git Skills
+		1. Software Development
+		2. DevOps Engineer
+		3. System Administrator
+		4. .Data Scientist
+		5. Technical Writer
+		6. Project Manager
 
 10.5.       Staying Up-to-Date with Git
 
