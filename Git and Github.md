@@ -147,30 +147,18 @@
 		4. Establishing Clear Roles and Responsibilities
 		5. Onboarding New Team Members to Git and GitHub
 		6. Promoting a Positive and Inclusive Collaboration Environment
-
-6.2.           Git GUIs
-
-6.2.1.     Introduction to Git GUIs
-
-6.2.2.     Popular Git GitHub Desktop, GitKraken, Sourcetree
-
-6.2.3.     Advantages and Disadvantages of Using a Git GUI
-
-6.2.4.     Choosing the Right Git GUI for your Needs
-
-6.2.5.     Integration Git GUIs with Your Development Environment
-
-6.2.6.     Using Git GUIs for Visualizing Branching and Merging
-
-6.3.           Git in IDEs
-
-6.3.1.     Integrating Git with Popular IDEs: VS Code, IntelliJ, Eclipse
-
-6.3.2.     Using Git Features Directly from Your IDE
-
-6.3.3.     Resolving Merge Conflicts in Your IDE
-
-6.3.4.     Using IDE Extensions for Git
+	2. Git GUIs
+		1. Introduction to Git GUIs
+		2. Popular Git GitHub Desktop, GitKraken, Sourcetree
+		3. Advantages and Disadvantages of Using a Git GUI
+		4. Choosing the Right Git GUI for your Needs
+		5. Integration Git GUIs with Your Development Environment
+		6. Using Git GUIs for Visualizing Branching and Merging
+	3. Git in IDEs
+		1. Integrating Git with Popular IDEs: VS Code, IntelliJ, Eclipse
+		2. Using Git Features Directly from Your IDE
+		3. Resolving Merge Conflicts in Your IDE
+		4. Using IDE Extensions for Git
 
 6.3.5.     Configuring Git Setting in Your IDE
 
