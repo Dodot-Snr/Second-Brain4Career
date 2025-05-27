@@ -228,32 +228,19 @@
 		5. Managing Code Signing Certification with Git
 		6. Best Practices for Git in Mobile Development
 9. GIT AND GITHUB FOR TEAMS
-
-9.1.           Git for Documentation
-
-9.1.1.     Versioning Documentation with Git
-
-9.1.2.     Using Markdown and Other Formats for Documentation
-
-9.1.3.     Collaborating on Documentation Projects
-
-9.1.4.     Generating Documentation from Git Repositories
-
-9.1.5.     Deploying Documentation with Git
-
-9.1.6.     Best Practices for Git in Documentation
-
-9.2.           Onboarding New Team Members
-
-9.2.1.     Creating Onboarding Documentation for Git and GitHub
-
-9.2.2.     Providing Training and Support for New Team Members
-
-9.2.3.     Setting Up Git GitHub Accounts for New Team Members
-
-9.2.4.     Introducing Team Workflows and Best Practices
-
-9.2.5.     Assigning Mentors to New Team Members
+	1. Git for Documentation
+		1. Versioning Documentation with Git
+		2. Using Markdown and Other Formats for Documentation
+		3. Collaborating on Documentation Projects
+		4. Generating Documentation from Git Repositories
+		5. Deploying Documentation with Git
+		6. Best Practices for Git in Documentation
+	2. Onboarding New Team Members
+		1. Creating Onboarding Documentation for Git and GitHub
+		2. Providing Training and Support for New Team Members
+		3. Setting Up Git GitHub Accounts for New Team Members
+		4. Introducing Team Workflows and Best Practices
+		5. Assigning Mentors to New Team Members
 
 9.2.6.     Monitoring New Team Member Progress
 
