@@ -171,38 +171,22 @@
 		7. Best Practices for Using Git Hooks
 7. Troubleshooting Git and GitHub
 	1. Git and CI/CD
-
-7.1.1.     Integrating Git with Ci/CD Tools: Jenkins, Travis CI, CircleCI
-
-7.1.2.     Automating Builds, Tests, and Deployments
-
-7.1.3.     Using Git Webhooks to Trigger CI/CD Pipelines
-
-7.1.4.     Managing Configuration as Code with Git
-
-7.1.5.     Implementing Infrastructure as Code with Git
-
-7.1.6.     Best Practices for Git and CI/CD Integration
-
-7.2.           Common Git Errors
-
-7.2.1.     Resolving Common Git Errors: Merge Conflicts, Detached HEAD, Staging Issues
-
-7.2.2.     Understanding Error Messages and Debugging Techniques
-
-7.2.3.     Using ‘git fsck’ to Check Repository Integrity
-
-7.2.4.     Recovering Lost Commits and Branches
-
-7.2.5.     Fixing Corrupted Repositories
-
-7.2.6.     Preventing Common Git Errors
-
-7.3.           GitHub Troubleshooting
-
-7.3.1.     Troubleshooting GitHub Authentication Issues
-
-7.3.2.     Resolving GitHub Permission Issues
+		1. Integrating Git with Ci/CD Tools: Jenkins, Travis CI, CircleCI
+		2. Automating Builds, Tests, and Deployments
+		3. Using Git Webhooks to Trigger CI/CD Pipelines
+		4. Managing Configuration as Code with Git
+		5. Implementing Infrastructure as Code with Git
+		6. Best Practices for Git and CI/CD Integration
+	2. Common Git Errors
+		1. Resolving Common Git Errors: Merge Conflicts, Detached HEAD, Staging Issues
+		2. Understanding Error Messages and Debugging Techniques
+		3. Using ‘git fsck’ to Check Repository Integrity
+		4. Recovering Lost Commits and Branches
+		5. Fixing Corrupted Repositories
+		6. Preventing Common Git Errors
+	3. GitHub Troubleshooting
+		1. Troubleshooting GitHub Authentication Issues
+		2. Resolving GitHub Permission Issues
 
 7.3.3.     Diagnosing GitHub Actions Failures
 
