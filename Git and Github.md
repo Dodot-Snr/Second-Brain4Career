@@ -303,27 +303,17 @@
 		4. The Staging Area
 		5. Commits and Commit Messages
 		6. Branches and Merging
-		7. Basic Git Commands
-
-1.2.1.     git init
-
-1.2.2.     git clone
-
-1.2.3.     git add
-
-1.2.4.     git commit
-
-1.2.5.     git status
-
-1.2.6.     git diff
-
-1.2.7.     git log
-
-1.2.8.     git remote
-
-1.3.           Branching and Merging
-
-1.3.1.     Creating Branches
+	2. Basic Git Commands
+		1. git init
+		2. git clone
+		3. git add
+		4. git commit
+		5. git status
+		6. git diff
+		7. git log
+		8. git remote
+	3. Branching and Merging
+		1. Creating Branches
 
 1.3.2.     Switching Branches
 
