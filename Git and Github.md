@@ -299,12 +299,9 @@
 	1. Core Concepts
 		1. Version Control Systems
 		2. Distributed Version Control
-
-1.1.3.     Snapshot s vs Differences
-
-1.1.4.     The Staging Area
-
-1.1.5.     Commits and Commit Messages
+		3. Snapshot s vs Differences
+		4. The Staging Area
+			1. Commits and Commit Messages
 
 1.1.6.     Branches and Merging
 
