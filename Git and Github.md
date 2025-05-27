@@ -187,32 +187,19 @@
 	3. GitHub Troubleshooting
 		1. Troubleshooting GitHub Authentication Issues
 		2. Resolving GitHub Permission Issues
-
-7.3.3.     Diagnosing GitHub Actions Failures
-
-7.3.4.     Troubleshooting GitHub Pages Deployment Issues
-
-7.3.5.     Fixing GitHub API Errors
-
-7.3.6.     Contacting GitHub Support
-
-7.4.           Performance Optimization
-
-7.4.1.     Optimizing Git Repository Size
-
-7.4.2.     Using Git LPS for Large Files
-
-7.4.3.     Improving Git Command Performance
-
-7.4.4.     Caching Strategies for Git
-
-7.4.5.     Optimizing GitHub Actions Performance
-
-7.4.6.     Monitoring Git and GitHub Performance
-
-8.        GIT FOR SPECIFIC USE CASES
-
-8.1.           Security Best Practices
+		3. Diagnosing GitHub Actions Failures
+		4. Troubleshooting GitHub Pages Deployment Issues
+		5. Fixing GitHub API Errors
+		6. Contacting GitHub Support
+	4. Performance Optimization
+		1. Optimizing Git Repository Size
+		2. Using Git LPS for Large Files
+		3. Improving Git Command Performance
+		4. Caching Strategies for Git
+		5. Optimizing GitHub Actions Performance
+		6. Monitoring Git and GitHub Performance
+8. GIT FOR SPECIFIC USE CASES
+	1. Security Best Practices
 
 8.1.1.     Securely Staring Credentials
 
