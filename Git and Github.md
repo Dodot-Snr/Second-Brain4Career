@@ -285,17 +285,10 @@
 		4. .Data Scientist
 		5. Technical Writer
 		6. Project Manager
-
-10.5.       Staying Up-to-Date with Git
-
-10.5.1.Following Git Blogs and Newsletters
-
-10.5.2.Attending Git Conferences and Workshops
-
-10.5.3.Participating in Git Communities
-
-10.5.4.Contributing to Git Projects
-
-10.5.5.Experimenting with New Git Features
-
-10.5.6.Continuously Learning and Improving Your Git Skills
+	5. Staying Up-to-Date with Git
+		1. .Following Git Blogs and Newsletters
+		2. Attending Git Conferences and Workshops
+		3. Participating in Git Communities
+		4. Contributing to Git Projects
+		5. Experimenting with New Git Features
+		6. Continuously Learning and Improving Your Git Skills
