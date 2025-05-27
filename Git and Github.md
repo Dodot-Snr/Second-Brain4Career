@@ -256,38 +256,22 @@
 		4. Escalating Conflicts When Necessary
 		5. Documenting Conflict Resolution Processes
 		6. Learning from Past Conflicts
-
-10.   GIT CERTIFICATION AND CAREER DEVELOPMENT
-
-10.1.       Promoting Collaboration
-
-10.1.1.Encouraging Open Communication
-
-10.1.2.Fostering a Culture of Respect
-
-10.1.3.Recognizing and Rewarding Collaboration
-
-10.1.4.Providing Opportunities for Team Building
-
-10.1.5.Using Collaboration Tools Effectively
-
-10.1.6.Creating a Positive and Inclusive Team Environment
-
-10.2.       Git certification Options
-
-10.2.1.Exploring Git Certification Programs
-
-10.2.2.Preparing for Git Certification Exams
-
-10.2.3.Understanding the Benefits of Git Certification
-
-10.2.4.Choosing the Right Git Certification for Your Career Goals
-
-10.2.5.Maintaining Your Git Certification
-
-10.2.6.Resource for Git Certification
-
-10.3.       Building a Git Portfolio
+10. GIT CERTIFICATION AND CAREER DEVELOPMENT
+	1. Promoting Collaboration
+		1. Encouraging Open Communication
+		2. Fostering a Culture of Respect
+		3. Recognizing and Rewarding Collaboration
+		4. Providing Opportunities for Team Building
+		5. Using Collaboration Tools Effectively
+		6. Creating a Positive and Inclusive Team Environment
+	2. Git certification Options
+		1. Exploring Git Certification Programs
+		2. Preparing for Git Certification Exams
+		3. Understanding the Benefits of Git Certification
+		4. Choosing the Right Git Certification for Your Career Goals
+		5. Maintaining Your Git Certification
+		Resource for Git Certification
+		Building a Git Portfolio
 
 10.3.1.Contributing to Open Source Projects
 
