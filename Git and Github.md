@@ -295,14 +295,10 @@
 
 
 ##### ADVANCED GIT AND GITHUB MASTERY
-   
-1.        GIT FUNDAMENTELS
-
-1.1.           Core Concepts
-
-1.1.1.     Version Control Systems
-
-1.1.2.     Distributed Version Control
+1. GIT FUNDAMENTEL
+	1. Core Concepts
+		1. Version Control Systems
+		2. Distributed Version Control
 
 1.1.3.     Snapshot s vs Differences
 
