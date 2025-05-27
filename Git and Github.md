@@ -200,36 +200,21 @@
 		6. Monitoring Git and GitHub Performance
 8. GIT FOR SPECIFIC USE CASES
 	1. Security Best Practices
-
-8.1.1.     Securely Staring Credentials
-
-8.1.2.     Protecting Against Git-Related Security Vulnerabilities
-
-8.1.3.     Implementing Code Signing
-
-8.1.4.     Using Security Scanning Tools
-
-8.1.5.     Monitoring for Security
-
-8.1.6.     Responding to Security Incidents
-
-8.2.           Git for Web Development
-
-8.2.1.     Managing Front-End Projects with Git
-
-8.2.2.     Managing Back-End Projects with Git
-
-8.2.3.     Using Git for Versioning Web Assets
-
-8.2.4.     Deploying Web Applications with Git
-
-8.2.5.     Collaborating on Web Development Projects
-
-8.2.6.     Best Practice for Git in Web Development
-
-8.3.           Git for Data Science
-
-8.3.1.     Versioning Data Science Projects with Git
+		1. Securely Staring Credentials
+		2. Protecting Against Git-Related Security Vulnerabilities
+		3. Implementing Code Signing
+		4. Using Security Scanning Tools
+		5. Monitoring for Security
+		6. Responding to Security Incidents
+	2. Git for Web Development
+		1. Managing Front-End Projects with Git
+		2. Managing Back-End Projects with Git
+		3. Using Git for Versioning Web Assets
+		4. Deploying Web Applications with Git
+		5. Collaborating on Web Development Projects
+		6. Best Practice for Git in Web Development
+	3. Git for Data Science
+		1. Versioning Data Science Projects with Git
 
 8.3.2.     Managing Data Files with Git LFS
 
