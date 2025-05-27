@@ -301,11 +301,9 @@
 		2. Distributed Version Control
 		3. Snapshot s vs Differences
 		4. The Staging Area
-			1. Commits and Commit Messages
-
-1.1.6.     Branches and Merging
-
-1.2.           Basic Git Commands
+		5. Commits and Commit Messages
+		6. Branches and Merging
+		7. Basic Git Commands
 
 1.2.1.     git init
 
