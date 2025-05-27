@@ -241,36 +241,21 @@
 		3. Setting Up Git GitHub Accounts for New Team Members
 		4. Introducing Team Workflows and Best Practices
 		5. Assigning Mentors to New Team Members
-
-9.2.6.     Monitoring New Team Member Progress
-
-9.3.           Establishing Team Standards
-
-9.3.1.     Defining Git Commit Message Conventions
-
-9.3.2.     Establishing Branching Strategies
-
-9.3.3.     Setting Code Review Guidelines
-
-9.3.4.     Defining Code Style Guidelines
-
-9.3.5.     Establishing Testing Standards
-
-9.3.6.     Documenting Team Workflows
-
-9.4.           Conflict Resolution Strategies
-
-9.4.1.     Identifying and Addressing Conflicts Early
-
-9.4.2.     Using Communication to Resolve Conflicts
-
-9.4.3.     Facilitating Mediation Between Team Members
-
-9.4.4.     Escalating Conflicts When Necessary
-
-9.4.5.     Documenting Conflict Resolution Processes
-
-9.4.6.     Learning from Past Conflicts
+		6. Monitoring New Team Member Progress
+	3. Establishing Team Standards
+		1. Defining Git Commit Message Conventions
+		2. Establishing Branching Strategies
+		3. Setting Code Review Guidelines
+		4. Defining Code Style Guidelines
+		5. Establishing Testing Standards
+		6. Documenting Team Workflows
+	4. Conflict Resolution Strategies
+		1. Identifying and Addressing Conflicts Early
+		2. Using Communication to Resolve Conflicts
+		3. Facilitating Mediation Between Team Members
+		4. Escalating Conflicts When Necessary
+		5. Documenting Conflict Resolution Processes
+		6. Learning from Past Conflicts
 
 10.   GIT CERTIFICATION AND CAREER DEVELOPMENT
 
