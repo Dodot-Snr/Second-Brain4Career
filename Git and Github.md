@@ -159,30 +159,18 @@
 		2. Using Git Features Directly from Your IDE
 		3. Resolving Merge Conflicts in Your IDE
 		4. Using IDE Extensions for Git
-
-6.3.5.     Configuring Git Setting in Your IDE
-
-6.3.6.     Streamlining Your Workflow with IDE Git Integration
-
-6.4.           Git Hooks
-
-6.4.1.     Understanding Git Hooks
-
-6.4.2.     Client-Side Hooks: ‘pre-commit’, ‘pre-push’
-
-6.4.3.     Server-Side Hooks: ‘pre-receive’, ‘post-receive’
-
-6.4.4.     Creating Custom Git Hooks
-
-6.4.5.     Using Git Hooks for Code Quality an d Security
-
-6.4.6.     Managing Git Hooks in a Team Environment
-
-6.4.7.     Best Practices for Using Git Hooks
-
-7.        Troubleshooting Git and GitHub
-
-7.1.           Git and CI/CD
+		5. Configuring Git Setting in Your IDE
+		6. Streamlining Your Workflow with IDE Git Integration
+	4. Git Hooks
+		1. Understanding Git Hooks
+		2. Client-Side Hooks: ‘pre-commit’, ‘pre-push’
+		3. Server-Side Hooks: ‘pre-receive’, ‘post-receive’
+		4. Creating Custom Git Hooks
+		5. Using Git Hooks for Code Quality and Security
+		6. Managing Git Hooks in a Team Environment
+		7. Best Practices for Using Git Hooks
+7. Troubleshooting Git and GitHub
+	1. Git and CI/CD
 
 7.1.1.     Integrating Git with Ci/CD Tools: Jenkins, Travis CI, CircleCI
 
