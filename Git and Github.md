@@ -314,577 +314,290 @@
 		8. git remote
 	3. Branching and Merging
 		1. Creating Branches
-
-1.3.2.     Switching Branches
-
-1.3.3.     Merging Branches
-
-1.3.4.     Merge Conflicts
-
-1.3.5.     Resolving Merge Conflicts
-
-1.3.6.     Branching Strategies (Gitflow, GitHub, Flow)
-
-1.4.           Undoing Changes
-
-1.4.1.     git checkout (restoring files)
-
-1.4.2.     git reset (staging area and commit history)
-
-1.4.3.     git revert (creating a new commit to undo)
-
-1.4.4.     git clean (removing untracked files)
-
-1.5.           Working with Remotes
-
-1.5.1.     Adding Remote Repositories
-
-1.5.2.     Fetching from Remotes
-
-1.5.3.     Pulling from Remotes
-
-1.5.4.     Pushing to Remotes
-
-1.5.5.     Tracking Branches
-
-2.        ADVANCED GIT TECHNIQUES
-
-2.1.           Ignoring Files
-
-2.1.1.     .gitignore file
-
-2.1.2.     Ignoring specific files
-
-2.1.3.     Ignoring patterns
-
-2.1.4.     Global Ignore files
-
-2.2.           Interactive Staging
-
-2.2.1.     Git add -p (patch mode)
-
-2.2.2.     Staging specific changes
-
-2.2.3.     Reviewing changes before staging
-
-2.3.           Rebasing
-
-2.3.1.     Understanding Rebasing
-
-2.3.2.     Interactive Rebasing
-
-2.3.3.     Rebasing vs Merging
-
-2.3.4.     Resolving Conflicts During Rebase
-
-2.3.5.     When to Rebase (and When Not to)
-
-2.4.           Stashing
-
-2.4.1.     Stashing Changes
-
-2.4.2.     Applying Stashes
-
-2.4.3.     Creating Stashes with Messages
-
-2.4.4.     Listing Stashes
-
-2.4.5.     Popping Stashes
-
-2.5.           Cherry-Picking
-
-2.5.1.     Cherry-Picking Commits
-
-2.5.2.     Cherry-Picking from Different Branches
-
-2.5.3.     Resolving Conflicts After Cherry-Picking
-
-2.6.           Submodules and Subtrees
-
-2.6.1.     Adding Submodules
-
-2.6.2.     Updating Submodules
-
-2.6.3.     Working with Subtrees
-
-2.6.4.     When to Use Submodules vs. Subtrees
-
-3.        GITHUB COLLABURATION
-
-3.1.           Git Hooks
-
-3.1.1.     Client-Side Hooks
-
-3.1.2.     Server-Side Hooks
-
-3.1.3.     Customizing Git Workflow with Hooks
-
-3.2.           Pull Requests
-
-3.2.1.     Creating Pull Requests
-
-3.2.2.     Reviewing Pull Requests
-
-3.2.3.     Commenting on Pull Requests
-
-3.2.4.     Merging Pull Request
-
-3.2.5.     Squashing and Merging
-
-3.2.6.     Rebase and Merge
-
-3.3.           Code Review
-
-3.3.1.     Best Practice for Code Review
-
-3.3.2.     Giving Constructive Feedback
-
-3.3.3.     Addressing Review Comments
-
-3.3.4.     Using GitHub’s Code Review Features
-
-3.4.           GitHub Issues
-
-3.4.1.     Creating Issues
-
-3.4.2.     Assigning Issues
-
-3.4.3.     Using Labels and Milestones
-
-3.4.4.     Issues Tracking an d Management
-
-3.4.5.     Closing Issues
-
-3.5.           GitHub Projects
-
-3.5.1.     Creating Projects
-
-3.5.2.     Adding Issues and Pull Request to Projects
-
-3.5.3.     Using Kanban Boards
-
-3.5.4.     Automating Project Management
-
-3.6.           GitHub Actions
-
-3.6.1.     Introduction to GitHub Actions
-
-3.6.2.     Creating Workflows
-
-3.6.3.     Using Pre-built Actions
-
-3.6.4.     Custom Actions
-
-3.6.5.     CI/CD Pipelines
-
-4.        GIT BRANCHING STRATEGIES
-
-4.1.           GitHub Pages
-
-4.1.1.     Creating a GitHub Pages Site
-
-4.1.2.     Using Jekyll
-
-4.1.3.     Custom Domains
-
-4.1.4.     Deploying Static Websites
-
-4.2.           Gitflow Workflow
-
-4.2.1.     The Master Branch
-
-4.2.2.     The Develop Branch
-
-4.2.3.     Feature Branches
-
-4.2.4.     Release Branches
-
-4.2.5.     Hotfix Branches
-
-4.2.6.     Merging and Tagging
-
-4.3.           GitHub Flow
-
-4.3.1.     Single Master Branch
-
-4.3.2.     Feature Branches
-
-4.3.3.     Pull Requests
-
-4.3.4.     Deploying to Production
-
-4.4.           GitLab Flow
-
-4.4.1.     Environment Branches
-
-4.4.2.     Release Branches
-
-4.4.3.     Hotfix Branches
-
-4.4.4.     Issues Tracking Integration
-
-5.        GIT CONFIGURATION
-
-5.1.           Choosing a Workflow
-
-5.1.1.     Project Size
-
-5.1.2.     Team Size
-
-5.1.3.     Release Frequency
-
-5.1.4.     Collaboration Style
-
-5.2.           Global Configuration
-
-5.2.1.     Setting User Name and Email
-
-5.2.2.     Configuring Editor
-
-5.2.3.     Configuring Aliases
-
-5.2.4.     Configuring Diff Tools
-
-5.3.           Repository Configuration
-
-5.3.1.     Repository-Specific Settings
-
-5.3.2.     Overriding Global Configuration
-
-5.4.           Git Attributes
-
-5.4.1.     .gitattributes file
-
-5.4.2.     Configuring Line Endings
-
-5.4.3.     Configuring Merge Strategies
-
-5.4.4.     Configuring Diff Highlighting
-
-5.5.           Git Aliases
-
-5.5.1.     Creating Aliases
-
-5.5.2.     Using Aliases for Common Commands
-
-5.5.3.     Sharing Aliases
-
-5.6.           SSH Keys
-
-5.6.1.     Generating SSH Keys
-
-5.6.2.     Adding SSH Keys to GitHub
-
-5.6.3.     Using SSH for Authentication
-
-6.        ADVANCES GITHUB FEATURES
-
-6.1.           Credentials Management
-
-6.1.1.     Storing Credentials
-
-6.1.2.     Using Credential Helpers
-
-6.2.           GitHub API
-
-6.2.1.     Introducing to the GitHub API
-
-6.2.2.     Authentication
-
-6.2.3.     Making API Requests
-
-6.2.4.     Using Libraries and Tools
-
-6.3.           Webhooks
-
-6.3.1.     Configuring Webhooks
-
-6.3.2.     Receiving Webhook Events
-
-6.3.3.     Using Webhooks for Automation
-
-6.4.           GitHub Apps
-
-6.4.1.     Creating GitHub Apps
-
-6.4.2.     Authentication
-
-6.4.3.     Permissions
-
-6.4.4.     Using GitHub Apps for Integrations
-
-6.5.           GitHub Packages
-
-6.5.1.     Publishing Packages
-
-6.5.2.     Using Packages
-
-6.5.3.     Managing Dependencies
-
-6.6.           GitHub Security
-
-6.6.1.     Security Alerts
-
-6.6.2.     Dependency Scanning
-
-6.6.3.     Code Scanning
-
-6.6.4.     Secret Scanning
-
-7.        GIT INTERNALS
-
-7.1.           GitHub Discussions
-
-7.1.1.     Enabling Discussions
-
-7.1.2.     Participating in Discussions
-
-7.1.3.     Moderating Discussions
-
-7.2.           The .git Directory
-
-7.2.1.     Object Database
-
-7.2.2.     Index File
-
-7.2.3.     Head Reference
-
-7.2.4.     Config File
-
-7.3.           Git Objects
-
-7.3.1.     Blob
-
-7.3.2.     Trees
-
-7.3.3.     Commits
-
-7.3.4.     Tags
-
-7.4.           Git References
-
-7.4.1.     Branches
-
-7.4.2.     Tags
-
-7.4.3.     Remote Tracking Branches
-
-7.4.4.     HEAD
-
-7.5.           Git Index
-
-7.5.1.     Staging Area
-
-7.5.2.     Caching Changes
-
-7.5.3.     Resolving Conflicts
-
-8.        GIT TROUBLESHOOTING
-
-8.1.           Git Garbage Collection
-
-8.1.1.     git gc
-
-8.1.2.     Removing Unreachable Objects
-
-8.1.3.     Optimizing Repository Size
-
-8.2.           Resolving Merge Conflicts
-
-8.2.1.     Identifying Conflicts
-
-8.2.2.     Using Merge Tools
-
-8.2.3.     Manual Conflict Resolution
-
-8.2.4.     Preventing Conflicts
-
-8.3.           Recovering Lost Commits
-
-8.3.1.     git reflog
-
-8.3.2.     Finding Lost Commits
-
-8.3.3.     Restoring Lost Commits
-
-8.4.           Fixing Corrupted Repositories
-
-8.4.1.     git fsck
-
-8.4.2.     Identifying Corruption
-
-8.4.3.     Repairing Corruption
-
-8.5.           Large File Storage (LFS) Issues
-
-8.5.1.     Configuration LFS
-
-8.5.2.     Tracking Large Files
-
-8.5.3.     Troubleshooting LFS
-
-9.        GIT FOR TEAMS
-
-9.1.           Performance Issues
-
-9.1.1.     Optimizing Repository Size
-
-9.1.2.     Using Git’s Performance Tools
-
-9.1.3.     Identifying Bottlenecks
-
-9.2.           Code Ownership
-
-9.2.1.     Defining Code Owners
-
-9.2.2.     Using CODEOWNERS File
-
-9.2.3.     Enforcing Code Ownership
-
-9.3.           Collaboration Workflows
-
-9.3.1.     Feature Branch Workflow
-
-9.3.2.     Pull Request Workflow
-
-9.3.3.     Code Review Workflow
-
-9.4.           Communication
-
-9.4.1.     Using Pull Request Comments
-
-9.4.2.     Using Issues
-
-9.4.3.     Using Discussions
-
-9.5.           Onboarding New Team Members
-
-9.5.1.     Setting Up Git and GitHub
-
-9.5.2.     Explaining Workflow
-
-9.5.3.     Providing Training
-
-10.   GIT SECURITY
-
-10.1.       Conflict Resolution
-
-10.1.1.Resolving Technical Conflicts
-
-10.1.2.Resolving Interpersonal Conflicts
-
-10.2.       Protecting Branches
-
-10.2.1.Branch Protection Rules
-
-10.2.2.Requiring Pull Request Reviews
-
-10.2.3.Requiring Status Checks
-
-10.3.       Secure Coding Practices
-
-10.3.1.Preventing Secrets in Code
-
-10.3.2.Using Secure Libraries
-
-10.3.3.Performing Security Audits
-
-10.4.       Authentication
-
-10.4.1.Using SSH Keys
-
-10.4.2.Using Personal Access Tokens
-
-10.4.3.Using Multi-Factor Authentication
-
-10.5.       Permission
-
-10.5.1.Managing Repository Permission
-
-10.5.2.Using Teams
-
-10.5.3.Using Organizations
-
-11.   GIT AND DEVOPS
-
-11.1.       Auditing
-
-11.1.1.Reviewing Audit Logs
-
-11.1.2.Monitoring Activity
-
-11.1.3.Detection Suspicious Behavior
-
-11.2.       Continuous Integration (CI)
-
-11.2.1.Integration Git with CD Tools
-
-11.2.2.Automating Deployments
-
-11.2.3.Managing Environment
-
-11.3.       Continuous Delivery (CD)
-
-11.3.1.Integrating Git with CD Tools
-
-11.3.2.Automating Deployments
-
-11.3.3.Managing Environments
-
-11.4.       Infrastructure as Code (IaC)
-
-11.4.1.Storing Infrastructure Code in Git
-
-11.4.2.Using Git for Version Control
-
-11.4.3.Automating Infrastructure Changes
-
-12.   GIT BEST PRACTICES
-
-12.1.       GitOps
-
-12.1.1.Using Git as the Source of Truth
-
-12.1.2.Automating Deployments wit h Git
-
-12.1.3.Managing Infrastructure with Git
-
-12.2.       Commit Messages
-
-12.2.1.Writing Clear Commit Messages
-
-12.2.2.Using a Consistent Style
-
-12.2.3.Referencing Issues
-
-12.3.       Branching
-
-12.3.1.Using Feature Branches
-
-12.3.2.Keeping Branches Short-Lived
-
-12.3.3.Deleting Branches After Merging
-
-12.4.       Code Review
-
-12.4.1.Performing Code Reviews
-
-12.4.2.Proving Constructive Feedback
-
-12.4.3.Addressing Review Comments
-
-12.5.       Testing
-
-12.5.1.Writing Unit Tests
-
-12.5.2.Writing Integration Tests
-
-12.5.3.Running Tests Automatically
-
-12.6.       Documentation
-
-12.6.1.Writing Documentation
-
-12.6.2.Keeping Documentation Up-to-Date
-
-12.6.3.Storing Documentation in Git
+		2. Switching Branches
+		3. Merging Branches
+		4. Merge Conflicts
+		5. Resolving Merge Conflicts
+		6. Branching Strategies (Gitflow, GitHub, Flow)
+	4. Undoing Changes
+		1. git checkout (restoring files)
+		2. git reset (staging area and commit history)
+		3. git revert (creating a new commit to undo)
+		4. git clean (removing untracked files)\
+	5. Working with Remotes
+		1. Adding Remote Repositories
+		2. Fetching from Remotes
+		3. Pulling from Remotes
+		4. Pushing to Remotes
+		5. Tracking Branches
+2. ADVANCED GIT TECHNIQUES
+	1. Ignoring Files
+		1. .gitignore file
+		2. Ignoring specific files
+		3. Ignoring patterns
+		4. Global Ignore files
+	2. Interactive Staging
+		1. Git add -p (patch mode)
+		2. Staging specific changes
+		3. Reviewing changes before staging
+	3. Rebasing
+		1. Understanding Rebasing
+		2. Interactive Rebasing
+		3. Rebasing vs Merging
+		4. Resolving Conflicts During Rebase
+		5. When to Rebase (and When Not to)
+	4. Stashing
+		1. Stashing Changes
+		2. Applying Stashes
+		3. Creating Stashes with Messages
+		4. Listing Stashes
+		5. Popping Stashes
+	5. Cherry-Picking
+		1. Cherry-Picking Commits
+		2. Cherry-Picking from Different Branches
+		3. Resolving Conflicts After Cherry-Picking
+	6. Submodules and Subtrees
+		1. Adding Submodules
+		2. Updating Submodules
+		3. Working with Subtrees
+		4. When to Use Submodules vs. Subtrees
+3. GITHUB COLLABURATION
+	1. Git Hooks
+		1. Client-Side Hooks
+		2. Server-Side Hooks
+		3. Customizing Git Workflow with Hooks
+	2. Pull Requests
+		1. Creating Pull Requests
+		2. Reviewing Pull Requests
+		3. Commenting on Pull Requests
+		4. Merging Pull Request
+		5. Squashing and Merging
+		6. Rebase and Merge
+	3. Code Review
+		1. Best Practice for Code Review
+		2. Giving Constructive Feedback
+		3. Addressing Review Comments
+		4. Using GitHub’s Code Review Features
+	4. GitHub Issues
+		1. Creating Issues
+		2. Assigning Issues
+		3. Using Labels and Milestones
+		4. Issues Tracking an d Management
+		5. Closing Issues
+	5. GitHub Projects
+		1. Creating Projects
+		2. Adding Issues and Pull Request to Projects
+		3. Using Kanban Boards
+		4. Automating Project Management
+	6. GitHub Actions
+		1. Introduction to GitHub Actions
+		2. Creating Workflows
+		3. Using Pre-built Actions
+		4. Custom Actions
+		5. CI/CD Pipelines
+4. GIT BRANCHING STRATEGIES
+	1. GitHub Pages
+		1. Creating a GitHub Pages Site\
+		2. Using Jekyll
+		3. Custom Domains
+		4. Deploying Static Websites
+	2. Gitflow Workflow
+		1. The Master Branch
+		2. The Develop Branch
+		3. Feature Branches
+		4. Release Branches
+		5. Hotfix Branches
+		6. Merging and Tagging
+	3. GitHub Flow
+		1. Single Master Branch
+		2. Feature Branches
+		3. Pull Requests
+		4. Deploying to Production
+	4. GitLab Flow
+		1. Environment Branches
+		2. Release Branches
+		3. Hotfix Branches
+		4. Issues Tracking Integration
+5. GIT CONFIGURATION
+	1. Choosing a Workflow
+		1. Project Size
+		2. Team Size
+		3. Release Frequency
+		4. Collaboration Style
+	2. Global Configuration
+		1. Setting User Name and Email
+		2. Configuring Editor
+		3. Configuring Aliases
+		4. Configuring Diff Tools
+	3. Repository Configuration
+		1. Repository-Specific Settings
+		2. Overriding Global Configuration
+	4. Git Attributes
+		1. .gitattributes file
+		2. Configuring Line Endings
+		3. Configuring Merge Strategies
+		4. Configuring Diff Highlighting
+	5. Git Aliases
+		1. Creating Aliases
+		2. Using Aliases for Common Commands
+		3. Sharing Aliases
+	6. SSH KeyS
+		1. Generating SSH Keys
+		2. Adding SSH Keys to GitHub
+		3. Using SSH for Authentication
+6. ADVANCES GITHUB FEATURES
+	1. Credentials Management
+		1. Storing Credentials
+		2. Using Credential Helpers
+	2. GitHub API
+		1. Introducing to the GitHub API
+		2. Authentication
+		3. Making API Requests
+		4. Using Libraries and Tools
+	3. Webhooks
+		1. Configuring Webhooks
+		2. Receiving Webhook Events
+		3. Using Webhooks for Automation
+	4. GitHub Apps
+		1. Creating GitHub Apps
+		2. Authentication
+		3. Permissions
+		4. Using GitHub Apps for Integrations
+	5. GitHub Packages
+		1. Publishing Packages
+		2. Using Packages
+		3. Managing Dependencies
+	6. GitHub Security
+		1. Security Alerts
+		2. Dependency Scanning
+		3. Code Scanning
+		4. Secret Scanning
+7. GIT INTERNALS
+	1. GitHub Discussions
+		1. Enabling Discussions
+		2. Participating in Discussions
+		3. Moderating Discussions
+	2. The .git Directory
+		1. Object Database
+		2. Index File
+		3. Head Reference
+		4. Config File
+	3. Git Objects
+		1. Blob
+		2. Trees
+		3. Commits
+		4. Tags
+	4. Git References
+		1. Branches
+		2. Tags
+		3. Remote Tracking Branches
+		4. HEAD
+	5. Git Index
+		1. Staging Area
+		2. Caching Changes
+		3. Resolving Conflicts
+8. GIT TROUBLESHOOTING
+	1. Git Garbage Collection
+		1. git gc
+		2. Removing Unreachable Objects
+		3. Optimizing Repository Size
+	2. Resolving Merge Conflicts
+		1. Identifying Conflicts
+		2. Using Merge Tools
+		3. Manual Conflict Resolution
+		4. Preventing Conflicts
+	3. Recovering Lost Commits
+		1. git reflog
+		2. Finding Lost Commits
+		3. Restoring Lost Commits
+	4. Fixing Corrupted Repositories
+		1. git fsck
+		2. Identifying Corruption
+		3. Repairing Corruption
+	5. Large File Storage (LFS) Issues
+		1. Configuration LFS
+		2. Tracking Large Files
+		3. Troubleshooting LFS
+9. GIT FOR TEAMS
+	1. Performance Issues
+		1. Optimizing Repository Size
+		2. Using Git’s Performance Tools
+		3. Identifying Bottlenecks
+	2. Code Ownership
+		1. Defining Code Owners
+		2. Using CODEOWNERS File
+		3. Enforcing Code Ownership
+	3. Collaboration Workflows
+		1. Feature Branch Workflow
+		2. Pull Request Workflow
+		3. Code Review Workflow
+	4. Communication
+		1. Using Pull Request Comments
+		2. Using Issues
+		3. Using Discussions
+	5. Onboarding New Team Members
+		1. Setting Up Git and GitHub
+		2. Explaining Workflow
+		3. Providing Training
+10. GIT SECURITY
+	1. Conflict Resolution
+		1. Resolving Technical Conflicts
+		2. Resolving Interpersonal Conflicts
+	2. Protecting Branches
+		1. Branch Protection Rules
+		2. Requiring Pull Request Reviews
+		3. Requiring Status Checks
+	3. Secure Coding Practices
+		1. Preventing Secrets in Code
+		2. Using Secure Libraries
+		3. Performing Security Audits
+	4. Authentication
+		1. Using SSH Keys
+		2. Using Personal Access Tokens
+		3. Using Multi-Factor Authentication
+	5. Permission
+		1. Managing Repository Permission
+		2. Using Teams
+		3. Using Organizations
+11. GIT AND DEVOPS
+	1. Auditing
+		1. Reviewing Audit Logs
+		2. Monitoring Activity
+		3. Detection Suspicious Behavior
+	2. Continuous Integration (CI)
+		1. Integration Git with CD Tools
+		2. Automating Deployments
+		3. Managing Environment
+	3. Continuous Delivery (CD)
+		1. Integrating Git with CD Tools
+		2. Automating Deployments
+		3. Managing Environments
+	4. Infrastructure as Code (IaC)
+		1. Storing Infrastructure Code in Git
+		2. Using Git for Version Control
+		3. Automating Infrastructure Changes
+12. GIT BEST PRACTICES
+	1. GitOps
+		1. Using Git as the Source of Truth
+		2. Automating Deployments wit h Git
+		3. Managing Infrastructure with Git
+	2. Commit Messages
+		1. Writing Clear Commit Messages
+		2. Using a Consistent Style
+		3. Referencing Issues
+	3. Branching
+		1. Using Feature Branches
+		2. Keeping Branches Short-Lived
+		3. Deleting Branches After Merging
+	4. Code Review
+		1. Performing Code Reviews
+		2. Proving Constructive Feedback
+		3. Addressing Review Comments
+	5. Testing
+		1. Writing Unit Tests
+		2. Writing Integration Tests
+		3. Running Tests Automatically
+	6. Documentation
+		1. Writing Documentation
+		2. Keeping Documentation Up-to-Date
+		3. Storing Documentation in Git
