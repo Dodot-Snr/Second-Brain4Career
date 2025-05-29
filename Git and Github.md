@@ -605,692 +605,348 @@
 
 ##### ADVANCED GIT AND GITHUB FOR LINUX MASTERY
 
-1.        GIT INTERNALS AND ARCHITECTURES
-
-1.1.           Git Objects
-
-1.1.1.     Blobs
-
-1.1.2.     Trees
-
-1.1.3.     Commits
-
-1.1.4.     Tags
-
-1.1.5.     Object Hashing (SHA-1)
-
-1.1.6.     Object Storage
-
-1.1.7.     Loose Objects vs Packfiles
-
-1.2.           Git Reference
-
-1.2.1.     Branches
-
-1.2.2.     Tags
-
-1.2.3.     Remote Tracking Branches
-
-1.2.4.     HEAD
-
-1.2.5.     Symbolic Reference
-
-1.2.6.     Reflogs
-
-1.2.7.     Understanding .git/refs
-
-1.3.           Index (Staging Area)
-
-1.3.1.     Purpose of the Index
-
-1.3.2.     Index Structure
-
-1.3.3.     Staging and Unstaging
-
-1.3.4.     Resolving Conflicts in the Index
-
-1.3.5.     Index Manipulation Commands
-
-1.3.6.     Advanced Index Options
-
-2.        ADVANCED BRANCHING AND MERGING
-
-2.1.           Git Configuration
-
-2.1.1.     Local Configuration
-
-2.1.2.     Global Configuration
-
-2.1.3.     System Configuration
-
-2.1.4.     Configuration Precedence
-
-2.1.5.     Configuration Files
-
-2.1.6.     Using ‘git config’ Command
-
-2.1.7.     Conditional Configuration
-
-2.2.           Branching Strategies
-
-2.2.1.     GitFlow
-
-2.2.2.     GitHub Flow
-
-2.2.3.     GitLab Flow
-
-2.2.4.     Trunk-Based Development
-
-2.2.5.     Choosing a Strategy
-
-2.2.6.     Custom Branching Models
-
-2.3.           Advanced Merging Techniques
-
-2.3.1.     Octopus Merges
-
-2.3.2.     Merge Strategies (Recursive, Resolve, Ours, Subtress)
-
-2.3.3.     Merge Optiions (e.g. ‘-Xours’, -Xtheirs’)
-
-2.3.4.     Handling Complex Merge Conflicts
-
-2.3.5.     Merge Conflict Visualization Tools
-
-2.3.6.     Post-Merge Cleanup
-
-2.4.           Rebasing
-
-2.4.1.     Interactive Rebasing
-
-2.4.2.     Rebasing vs. Merging
-
-2.4.3.     Rebasing Best Practices
-
-2.4.4.     Recovering from a Bad Rebase
-
-2.4.5.     Rebasing with Multiple Branches
-
-2.4.6.     Rebasing and Upstream Changes
-
-3.        COLLABORATION AND REMOTE WORKFLOWS
-
-3.1.           Cherry-Picking
-
-3.1.1.     Cherry-Picking Specific Commits
-
-3.1.2.     Cherry-Picking Ranges of Commits
-
-3.1.3.     Cherry-Picking and Conflict Resolution
-
-3.1.4.     Use Cases for Cherry-Picking
-
-3.1.5.     Avoiding Common Cherry-Picking Mistakes
-
-3.2.           Advanced Remote Management
-
-3.2.1.     Adding and Removing Remotes
-
-3.2.2.     Fetching and Pulling
-
-3.2.3.     Pushing and Tracking Branches
-
-3.2.4.     Remote Branch Management
-
-3.2.5.     Mirroring Repositories
-
-3.2.6.     Using Multiple Remotes
-
-3.3.           Pull Requests
-
-3.3.1.     Creating and Reviewing Pull Requests
-
-3.3.2.     Code Review Best Practices
-
-3.3.3.     Integration Continuous Integration (CI)
-
-3.3.4.     Handling Feedback and Revisions
-
-3.3.5.     Merging Pull Requests
-
-3.3.6.     Pull Request Templates
-
-3.4.           Collaboration Tools
-
-3.4.1.     GitHub Actions
-
-3.4.2.     GitLab CI/CD
-
-3.4.3.     Jenkins Integration
-
-3.4.4.     Code Climate
-
-3.4.5.     SonarQube
-
-3.4.6.     Integrating with Issue Trackers (Jiro, Trello)
-
-4.        GIT HOOKS
-
-4.1.           Forking an d Contributing
-
-4.1.1.     Forking Repositories
-
-4.1.2.     Contributing to Open Source Projects
-
-4.1.3.     Maintaining a Fork
-
-4.1.4.     Upstream Synchronization
-
-4.1.5.     Handling Contribution Guidelines
-
-4.1.6.     Licensing Considerations
-
-4.2.           Client-Side Hooks
-
-4.2.1.     ‘pre-commit’
-
-4.2.2.     ‘prepare-commit-mag’
-
-4.2.3.     ‘comit-msg’
-
-4.2.4.     ‘post-commit’
-
-4.2.5.     ‘pre-rebase’
-
-4.2.6.     ‘post-rewrite’
-
-4.3.           Server-Side Hooks
-
-4.3.1.     ‘pre-receive’
-
-4.3.2.     ‘update’
-
-4.3.3.     ‘post-receive’
-
-4.3.4.     Implementing Access Control
-
-4.3.5.     Enforcing Coding Standards
-
-4.4.           Custom Hooks
-
-4.4.1.     Writing Custom Hooks in Shell Script, Python, etc.
-
-4.4.2.     Hook Configuration and Management
-
-4.4.3.     Debugging Hooks
-
-4.4.4.     Version Controlling Hooks
-
-4.4.5.     Sharing Hooks with Teams
-
-5.        ADVANCED GIT COMMANDS AND TECHNIQUES
-
-5.1.           Hook Management Tools
-
-5.1.1.     Husky
-
-5.1.2.     Lefthook
-
-5.1.3.     Pre-commit framework
-
-5.1.4.     Automating Hook Installation
-
-5.1.5.     Integration Hooks into CI/CD
-
-5.2.           Git Bisect
-
-5.2.1.     Finding Regression Bugs
-
-5.2.2.     Using ‘git bisect start’, ‘git bisect bad’, ‘git bisect good’
-
-5.2.3.     Automating Bisect with Scripts
-
-5.2.4.     Bisecting Merge Commits
-
-5.2.5.     Visualizing Bisect Results
-
-5.3.           Git Filter-Branch
-
-5.3.1.     Rewriting History
-
-5.3.2.     Removing Sensitive Data
-
-5.3.3.     Changing Author Information
-
-5.3.4.     Splitting a Repository
-
-5.3.5.     Filtering Large Files
-
-5.3.6.     Using ‘git filter-branch’ Safely
-
-5.4.           Git Attributes
-
-5.4.1.     Defining Attributes for Files and Directories
-
-5.4.2.     ‘eol’, ‘ident’, ‘export-ignore’
-
-5.4.3.     Configuration Merge Strategies
-
-5.4.4.     Binary File Handling
-
-5.4.5.     Using ‘.gitattributes’ File
-
-5.4.6.     Applying Attributes Globally
-
-6.        PERFORMANCE OPTIMIZATION
-
-6.1.           Git LFS (Large File Storage)
-
-6.1.1.     Tracking Large Files
-
-6.1.2.     Installing and Configuration Git LFS
-
-6.1.3.     LFS Workflow
-
-6.1.4.     Migrating Existing Repositories to LFS
-
-6.1.5.     LFS and Collaboration
-
-6.1.6.     LFS Limitations
-
-6.2.           Repositories Size Management
-
-6.2.1.     Removing Large Files
-
-6.2.2.     Using Git LFS
-
-6.2.3.     Compacting the Repository
-
-6.2.4.     Garbage Collection (‘git gc’)
-
-6.2.5.     Optimizing Object Storage
-
-6.2.6.     Shallow Clones
-
-6.3.           Index Optimization
-
-6.3.1.     Keeping the Index Clean
-
-6.3.2.     Minimizing Index Size
-
-6.3.3.     Index Configuration Options
-
-6.3.4.     Using Sparce Checkouts
-
-6.3.5.     Optimizing Staging Operations
-
-6.4.           Network Performance
-
-6.4.1.     Optimizing Fetch and Push
-
-6.4.2.     Using Git Protocol v2
-
-6.4.3.     HTTP/2 Configuration
-
-6.4.4.     Caching Strategies
-
-6.4.5.     Mirroring Repositories
-
-6.4.6.     Using a Git Proxy
-
-7.        SECURITY BEST PRACTICES
-
-7.1.           Profiting Git Commands
-
-7.1.1.     Using ‘git time-machine’
-
-7.1.2.     Identifying Slow Operations
-
-7.1.3.     Optimizing Git Configuration
-
-7.1.4.     Hardware Considerations
-
-7.1.5.     Monitoring Git Performance
-
-7.2.           Authentication and Authorization
-
-7.2.1.     SSH Keys
-
-7.2.2.     HTTPS Authentication
-
-7.2.3.     Two-Factor Authentication
-
-7.2.4.     Git Credentials Management
-
-7.2.5.     Access Control Lists (ACLs)
-
-7.2.6.     Role-Based Access Control (RBAC)
-
-7.3.           Data Protection
-
-7.3.1.     Encryption at Rest
-
-7.3.2.     Encryption in Transit
-
-7.3.3.     Data Loss Prevention (DLP)
-
-7.3.4.     Regular Backups
-
-7.3.5.     Disaster Recovery Planning
-
-7.3.6.     Secure Configuration Management
-
-7.4.           Vulnerability Management
-
-7.4.1.     Identifying and Patching Git Vulnerabilities
-
-7.4.2.     Dependency Scanning
-
-7.4.3.     Security Audits
-
-7.4.4.     Penetration Testing
-
-7.4.5.     Incident Response
-
-7.4.6.     Staying Up-to-Date with Security Advisories
-
-8.         GIT WORKFLOWS FOR LIUNX KERNEL DEVELOPMENT
-
-8.1.           Secure Coding Practices
-
-8.1.1.     Avoiding Hardcoded Secrets
-
-8.1.2.     Input Validation
-
-8.1.3.     Output Encoding
-
-8.1.4.     Secure Configuration
-
-8.1.5.     Least Privilege Principle
-
-8.1.6.     Code Review for Security
-
-8.2.           Understanding the Linux Kernel Workflow
-
-8.2.1.     Mailing List Based Development
-
-8.2.2.     Patch Submission Process
-
-8.2.3.     Code Review Process
-
-8.2.4.     Linus Torvald’s Role
-
-8.2.5.     Kernel Coding Style
-
-8.2.6.     Community Guidelines
-
-8.3.           Using Git with the Linux Kernel
-
-8.3.1.     Cloning the Kernel Repository
-
-8.3.2.     Branching and Patch Creation
-
-8.3.3.     Generating Patches with ‘git format-patch’
-
-8.3.4.     Applying Patches with ‘git am’
-
-8.3.5.     Managing Patch Series
-
-8.3.6.     Using ‘git send-email’
-
-8.4.           Kernel Development Tools
-
-8.4.1.     Coccinelle
-
-8.4.2.     Sparse
-
-8.4.3.     Checkpatch
-
-8.4.4.     Kernel CI
-
-8.4.5.     Using Static Analysis Tools
-
-8.4.6.     Debugging Techniques
-
-9.        GITHUB ADVANCED FEATURES
-
-9.1.           Contributing to the Kernel
-
-9.1.1.     Finding Bugs and Issues
-
-9.1.2.     Writing Clear Commit Messages
-
-9.1.3.     Following the Kernel Documentation
-
-9.1.4.     Participating in Discussions
-
-9.1.5.     Getting You r Patches Accepted
-
-9.1.6.     Maintaining Kernel Code
-
-9.2.           GitHub Actions Deep Dive
-
-9.2.1.     Writing Custom Actions
-
-9.2.2.     Using Third-Party Actions
-
-9.2.3.     Workflow Syntax and Configuration
-
-9.2.4.     Secrets Management
-
-9.2.5.     Environment Variable s
-
-9.2.6.     Triggering Workflows
-
-9.2.7.     Monitoring and Debugging Actions
-
-9.3.           GitHub Packages
-
-9.3.1.     Publishing and Consuming Packages
-
-9.3.2.     Supported Package Formants (npm, Maven, NuGet, Docker)
-
-9.3.3.     Access Control
-
-9.3.4.     Versioning
-
-9.3.5.     Package Metadata
-
-9.3.6.     Integration with GitHub Actions
-
-9.4.           GitHub Pages
-
-9.4.1.     Creating Static Websites
-
-9.4.2.     Using Jekyll and other Static Site Generators
-
-9.4.3.     Custom Domains
-
-9.4.4.     HTTPS Configuration
-
-9.4.5.     GitHub Pages Workflow
-
-9.4.6.     Deploying from GitHub Actions
-
-10.   GIT AND DEVOPS
-
-10.1.       GitHub Advanced Security
-
-10.1.1.Code Scanning
-
-10.1.2.Secret Scanning
-
-10.1.3.Dependency Review
-
-10.1.4.Security Alerts
-
-10.1.5.Integrating with Security Tools
-
-10.1.6.Configurating Security Policies
-
-10.2.       Infrastructure as Code (IaC)
-
-10.2.1.Version Controlling Infrastructure Configuration
-
-10.2.2.Using Git with Terraform, Ansible, Chef, Puppet
-
-10.2.3.Managing Infrastructure Changes
-
-10.2.4.Automating Infrastructure Deployment
-
-10.2.5.Infrastructure Testing
-
-10.2.6.GitOps Principles
-
-10.3.       Continuous Integration/ Continuous Deployment (CI/CD)
-
-10.3.1.Integrating Git with CI/CD Pipelines
-
-10.3.2.Automating Builds, Tests and Deployments
-
-10.3.3.Using Git Hooks for CI/CD
-
-10.3.4.Branching Strategies
-
-10.3.5.Release Management
-
-10.3.6.Monitoring and Rollback Strategies
-
-10.4.       Configuration Management
-
-10.4.1.Version Controlling Configuration Files
-
-10.4.2.Using Git with Configuration Management Tools
-
-10.4.3.Managing Secrets and Credentials
-
-10.4.4.Automating Configuration Changes
-
-10.4.5.Configuration Drift Detection
-
-10.4.6.Compliance and Auditing
-
-11.   TROUBLESHOOTING AND RECOVERY
-
-11.1.       Containerization
-
-11.1.1.Version Controlling Dockerfiles and Compose Files
-
-11.1.2.Using Git with Docker and Kubernetes
-
-11.1.3.Automating Container Builds and Deployments
-
-11.1.4.Managing Container Images
-
-11.1.5.Container Orchestration
-
-11.1.6.Git-Based Workflows for Container Management
-
-11.2.       Common Git Problems
-
-11.2.1.Detached HEAD State
-
-11.2.2.Merge Conflicts
-
-11.2.3.Lost Commits
-
-11.2.4.Accidental Deletion of Branches
-
-11.2.5.Staging Errors
-
-11.2.6.Authentication Issues
-
-11.3.       Recovery Techniques
-
-11.3.1.Using ‘git reflog’
-
-11.3.2.Recovering Deleted Branches
-
-11.3.3.Resetting to Previous Commits
-
-11.3.4.Reverting Commits
-
-11.3.5.Resolving Merge Conflicts
-
-11.3.6.Fixing Corrupted Repositories
-
-11.4.       Debugging Git
-
-11.4.1.Using ‘git fsck’
-
-11.4.2.Analyzing Gt Logs
-
-11.4.3.Profiling Git Commands
-
-11.4.4.Using Git GUI Tools for Debugging
-
-11.4.5.Understanding Git Error Messages
-
-11.4.6.Seeking Help from the Community
-
-12.   SCRIPTING AND AUTOMATION WITH GIT
-
-12.1.       Disaster Recovery
-
-12.1.1.Regular Backups
-
-12.1.2.Repositories Mirroring
-
-12.1.3.Offsite Storage
-
-12.1.4.Testing Recovery Procedures
-
-12.1.5.Minimizing Downtime
-
-12.1.6.Documenting Recovery Processes
-
-12.2.       Git Aliases
-
-12.2.1.Creating Custom Git Commands
-
-12.2.2.Simplifying Complex Commands
-
-12.2.3.Sharing Aliases with Teams
-
-12.2.4.Using Aliases for Common Tasks
-
-12.2.5.Alias Configuration
-
-12.2.6.Advanced Alias Techniques
-
-12.3.       Shell Scripting with Git
-
-12.3.1.Automating git Workflows
-
-12.3.2.Writing Scripts for Common Tasks
-
-12.3.3.Using Git Commands in Scripts
-
-12.3.4.Handling Errors an d Exceptions
-
-12.3.5.Scripting for CI/Cd
-
-12.3.6.Integrating with Other Tools
-
-12.4.       Python Scripting with Git
-
-12.4.1.Using GitPython Library
-
-12.4.2.Automating Git Tasks with Python
-
-12.4.3.Creating Custom Git Tools
-
-12.4.4.Integrating with APIs
-
-12.4.5.Data Analysis with Git History
-
-12.4.6.Building Git Extensions
-
-12.5.       Git API
-
-12.5.1.Integrating with Git Repositories Programmatically
-
-12.5.2.Using the GitHub API
-
-12.5.3.Using the GitLab API
-
-12.5.4.Automating Repository Management
-
-12.5.5.Building Custom Git Integrations
-
-12.5.6.Webhooks and Event Handling
+1. GIT INTERNALS AND ARCHITECTURES
+	1. Git Objects
+		1. Blobs
+		2. Trees
+		3. Commits
+		4. Tags
+		5. Object Hashing (SHA-1)
+		6. Object Storage
+		7. Loose Objects vs Packfiles
+	2. Git Reference
+		1. Branches
+		2. Tags
+		3. Remote Tracking Branches
+		4. HEAD
+		5. Symbolic Reference
+		6. Reflogs
+		7. Understanding .git/refs
+	3. Index (Staging Area)
+		1. Purpose of the Index
+		2. Index Structure
+		3. Staging and Unstaging
+		4. Resolving Conflicts in the Index
+		5. Index Manipulation Commands
+		6. Advanced Index Options
+2. ADVANCED BRANCHING AND MERGING
+	1. Git Configuration
+		1. Local Configuration
+		2. Global Configuration
+		3. System Configuration
+		4. Configuration Precedence
+		5. Configuration Files
+		6. Using ‘git config’ Command
+		7. Conditional Configuration
+	2. Branching Strategies
+		1. GitFlow
+		2. GitHub Flow
+		3. GitLab Flow
+		4. Trunk-Based Development
+		5. Choosing a Strategy
+		6. Custom Branching Models
+	3. Advanced Merging Techniques
+		1. Octopus Merges
+		2. Merge Strategies (Recursive, Resolve, Ours, Subtress)
+		3. Merge Optiions (e.g. ‘-Xours’, -Xtheirs’)
+		4. Handling Complex Merge Conflicts
+		5. Merge Conflict Visualization Tools
+		6. Post-Merge Cleanup
+	4. Rebasing
+		1. Interactive Rebasing
+		2. Rebasing vs. Merging
+		3. Rebasing Best Practices
+		4. Recovering from a Bad Rebase
+		5. Rebasing with Multiple Branches
+		6. Rebasing and Upstream Changes
+3. COLLABORATION AND REMOTE WORKFLOWS
+	1. Cherry-Picking
+		1. Cherry-Picking Specific Commits
+		2. Cherry-Picking Ranges of Commits
+		3. Cherry-Picking and Conflict Resolution
+		4. Use Cases for Cherry-Picking
+		5. Avoiding Common Cherry-Picking Mistakes
+	2. Advanced Remote Management
+		1. Adding and Removing Remotes
+		2. Fetching and Pulling
+		3. Pushing and Tracking Branches
+		4. Remote Branch Manag
+		5. ement
+		6. Mirroring RepositoriesUsing Multiple Remotes
+	3. Pull Requests
+		1. Creating and Reviewing Pull Requests
+		2. Code Review Best Practices
+		3. Integration Continuous Integration (CI)
+		4. Handling Feedback and Revisions
+		5. Merging Pull Requests
+		6. Pull Request Templates
+	4. Collaboration Tools
+		1. GitHub Actions
+		2. GitLab CI/CD
+		3. Jenkins Integration
+		4. Code Climate
+		5. SonarQube
+		6. Integrating with Issue Trackers (Jiro, Trello)
+4. GIT HOOKS
+	1. Forking an d Contributing
+		1. Forking Repositories
+		2. Contributing to Open Source Projects
+		3. Maintaining a Fork
+		4. Upstream Synchronization
+		5. Handling Contribution Guidelines
+		6. Licensing Considerations
+	2. Client-Side Hooks
+		1. ‘pre-commit’
+		2. ‘prepare-commit-mag’
+		3. ‘comit-msg’
+		4. ‘post-commit’
+		5. ‘pre-rebase’
+		6. ‘post-rewrite’
+	3. Server-Side Hooks
+		1. ‘pre-receive’
+		2. ‘update’
+		3. ‘post-receive’
+		4. Implementing Access Control
+		5. Enforcing Coding Standards
+	4. Custom Hooks
+		1. Writing Custom Hooks in Shell Script, Python, etc.
+		2. Hook Configuration and Management
+		3. Debugging Hooks
+		4. Version Controlling Hook
+		5. Sharing Hooks with Teams
+5. ADVANCED GIT COMMANDS AND TECHNIQUES
+	1. Hook Management Tools
+		1. Husky
+		2. Lefthook
+		3. Pre-commit framework
+		4. Automating Hook Installation
+		5. Integration Hooks into CI/CD
+	2. Git Bisect
+		1. Finding Regression Bugs
+		2. Using ‘git bisect start’, ‘git bisect bad’, ‘git bisect good’
+		3. Automating Bisect with Scripts
+		4. Bisecting Merge Commits
+		5. Visualizing Bisect Results
+	3. Git Filter-Branch
+		1. Rewriting History
+		2. Removing Sensitive Data
+		3. Changing Author Information
+		4. Splitting a Repository
+		5. Filtering Large Files
+		6. Using ‘git filter-branch’ Safely
+	4. Git Attributes
+		1. Defining Attributes for Files and Directories
+		2. ‘eol’, ‘ident’, ‘export-ignore’
+		3. Configuration Merge Strategies
+		4. Binary File Handling
+		5. Using ‘.gitattributes’ File
+		6. Applying Attributes Globally
+6. PERFORMANCE OPTIMIZATION
+	1. Git LFS (Large File Storage)
+		1. Tracking Large Files
+		2. Installing and Configuration Git LFS
+		3. LFS Workflow
+		4. Migrating Existing Repositories to LFS
+		5. LFS and Collaboration
+		6. LFS Limitations
+	2. Repositories Size Management
+		1. Removing Large Files
+		2. Using Git LFS
+		3. Compacting the Repository
+		4. Garbage Collection (‘git gc’)
+		5. Optimizing Object Storage
+		6. Shallow Clones
+	3. Index Optimization
+		1. Keeping the Index Clean
+		2. Minimizing Index Size
+		3. Index Configuration Options
+		4. Using Sparce Checkouts
+		5. Optimizing Staging Operations
+	4. Network Performance
+		1. Optimizing Fetch and Push
+		2. Using Git Protocol v2
+		3. HTTP/2 Configuration
+		4. Caching Strategies
+		5. Mirroring Repositories
+		6. Using a Git Proxy
+7. SECURITY BEST PRACTICES
+	1. Profiting Git Commands
+		1. Using ‘git time-machine’
+		2. Identifying Slow Operations
+		3. Optimizing Git Configuration
+		4. Hardware Considerations
+		5. Monitoring Git Performance
+	2. Authentication and Authorization
+		1. SSH Keys
+		2. HTTPS Authentication
+		3. Two-Factor Authentication
+		4. Git Credentials Management
+		5. Access Control Lists (ACLs)
+		6. Role-Based Access Control (RBAC)
+	3. Data Protection
+		1. Encryption at Rest
+		2. Encryption in Transit
+		3. Data Loss Prevention (DLP)
+		4. Regular Backups
+		5. Disaster Recovery Planning
+		6. Secure Configuration Management
+	4. Vulnerability Management
+		1. Identifying and Patching Git Vulnerabilities
+		2. Dependency Scanning
+		3. Security Audits
+		4. Penetration Testing
+		5. Incident Response
+		6. Staying Up-to-Date with Security Advisories
+8. GIT WORKFLOWS FOR LIUNX KERNEL DEVELOPMENT
+	1. Secure Coding Practices
+		1. Avoiding Hardcoded Secrets
+		2. Input Validation
+		3. Output Encoding
+		4. Secure Configuration
+		5. Least Privilege Principle
+		6. Code Review for Security
+	2. Understanding the Linux Kernel Workflow
+		1. Mailing List Based Development
+		2. Patch Submission Process
+		3. Code Review Process
+		4. Linus Torvald’s Role
+		5. Kernel Coding Style
+		6. Community Guidelines
+	3. Using Git with the Linux Kernel
+		1. Cloning the Kernel Repository
+		2. Branching and Patch Creation
+		3. Generating Patches with ‘git format-patch’
+		4. Applying Patches with ‘git am’
+		5. Managing Patch Series
+		6. Using ‘git send-email’
+	4. Kernel Development Tools
+		1. Coccinelle
+		2. Sparse
+		3. Checkpatch
+		4. Kernel CI
+		5. Using Static Analysis Tools
+		6. Debugging Techniques
+9. GITHUB ADVANCED FEATURES
+	1. Contributing to the Kernel
+		1. Finding Bugs and Issues
+		2. Writing Clear Commit Messages
+		3. Following the Kernel Documentation
+		4. Participating in Discussions
+		5. Getting You r Patches Accepted
+		6. Maintaining Kernel Code
+	2. GitHub Actions Deep Dive
+		1. Writing Custom Actions
+		2. Using Third-Party Actions
+		3. Workflow Syntax and Configuration
+		4. Secrets Management
+		5. Environment Variables
+		6. Triggering Workflows
+		7. Monitoring and Debugging Actions
+	3. GitHub Packages
+		1. Publishing and Consuming Packages
+		2. Supported Package Formants (npm, Maven, NuGet, Docker)
+		3. Access Control
+		4. Versioning
+		5. Package Metadata
+		6. Integration with GitHub Actions
+	4. GitHub Pages
+		1. Creating Static Websites
+		2. Using Jekyll and other Static Site Generators
+		3. Custom Domains
+		4. HTTPS Configuration
+		5. GitHub Pages Workflow
+		6. Deploying from GitHub Actions
+10. GIT AND DEVOPS
+	1. GitHub Advanced Security
+		1. Code Scanning
+		2. Secret Scanning
+		3. Dependency Review
+		4. Security Alerts
+		5. Integrating with Security Tools
+		6. Configurating Security Policies
+	2. Infrastructure as Code (IaC)
+		1. Version Controlling Infrastructure Configuration
+		2. Using Git with Terraform, Ansible, Chef, Puppet
+		3. Managing Infrastructure Changes
+		4. Automating Infrastructure Deployment
+		5. Infrastructure Testing
+		6. GitOps Principles
+	3. Continuous Integration/ Continuous Deployment (CI/CD)
+		1. Integrating Git with CI/CD Pipelines
+		2. Automating Builds, Tests and Deployments
+		3. Using Git Hooks for CI/CD
+		4. Branching Strategies
+		5. Release Management
+		6. Monitoring and Rollback Strategies
+	4. Configuration Management
+		1. Version Controlling Configuration Files
+		2. Using Git with Configuration Management Tools
+		3. Managing Secrets and Credentials
+		4. Automating Configuration Changes
+		5. Configuration Drift Detection
+		6. Compliance and Auditing
+11. TROUBLESHOOTING AND RECOVERY
+	1. Containerization
+		1. Version Controlling Dockerfiles and Compose Files
+		2. Using Git with Docker and Kubernetes
+		3. Automating Container Builds and Deployments
+		4. Managing Container Images
+		5. .Container Orchestration
+		6. Git-Based Workflows for Container Management
+	2. Common Git Problems
+		1. Detached HEAD State
+		2. Merge Conflicts
+		3. Lost Commits
+		4. Accidental Deletion of Branches
+		5. Staging Errors
+		6. Authentication Issues
+	3. Recovery Techniques
+		1. Using ‘git reflog’
+		2. Recovering Deleted Branches
+		3. Resetting to Previous Commits
+		4. Reverting Commits
+		5. Resolving Merge Conflicts
+		6. Fixing Corrupted Repositories
+	4. Debugging Git
+		1. Using ‘git fsck’
+		2. Analyzing Gt Logs
+		3. Profiling Git Commands
+		4. Using Git GUI Tools for Debugging
+		5. Understanding Git Error Messages
+		6. Seeking Help from the Community
+12. SCRIPTING AND AUTOMATION WITH GIT
+	1. Disaster Recovery
+		1. Regular Backups
+		2. Repositories Mirroring
+		3. Offsite Storage
+		4. Testing Recovery Procedures
+		5. Minimizing Downtime
+		6. Documenting Recovery Processes
+	2. Git Aliases
+		1. Creating Custom Git Commands
+		2. Simplifying Complex Commands
+		3. Sharing Aliases with Teams
+		4. Using Aliases for Common Tasks
+		5. Alias Configuration
+		6. Advanced Alias Techniques
+	3. Shell Scripting with Git
+		1. Automating git Workflows
+		2. Writing Scripts for Common Tasks
+		3. Using Git Commands in Scripts
+		4. Handling Errors an d Exceptions
+		5. Scripting for CI/Cd
+		6. Integrating with Other Tools
+	4. Python Scripting with Git
+		1. Using GitPython Library
+		2. Automating Git Tasks with Python
+		3. Creating Custom Git Tools
+		4. Integrating with APIs
+		5. Data Analysis with Git History
+		6. Building Git Extensions
+	5. Git API
+		1. Integrating with Git Repositories Programmatically
+		2. Using the GitHub API
+		3. Using the GitLab API
+		4. Automating Repository Management
+		5. Building Custom Git Integrations
+		6. Webhooks and Event Handling
