@@ -1,5 +1,5 @@
 ##### GIT AND GITHUB MASTERY 
-1. [[GIT FUNDAMENTALS]]
+1. [GIT FUNDAMENTALS](GIT-FUNDAMENTALS.md)
 	1. Introduction to Version Control
 		1. Understanding Version Control Systems (VCS)
 		2. Centralized vs Distributed VSC
