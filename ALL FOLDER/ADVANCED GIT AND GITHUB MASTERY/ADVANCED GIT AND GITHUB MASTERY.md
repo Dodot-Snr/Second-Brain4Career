@@ -27,7 +27,7 @@
 	- [[5.1 Choosing a Workflow]]
 	- [[5.2 Global Configuration]]
 	- [[5.3 Repository Configuration]]
-	- [[5.4 Git Attributes]]
+	- [[Second-Brain4Career/ALL FOLDER/ADVANCED GIT AND GITHUB MASTERY/5_GIT CONFIGURATION/5.4 Git Attributes]]
 	- [[5.5 Git Aliases]]
 	- [[5.6 SSH Keys]]
 6. ADVANCES GITHUB FEATURES
